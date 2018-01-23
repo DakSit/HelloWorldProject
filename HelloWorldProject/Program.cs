@@ -1,12 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace HelloWorldProject
+namespace HelloWorldApplication
 {
-    class Program
+    class HelloWorld
     {
-        static void Main(string[] args)
+        static void Main(String[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World");
+            Console.ReadLine();
         }
     }
+
 }
